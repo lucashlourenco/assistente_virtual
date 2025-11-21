@@ -1,0 +1,65 @@
+version: "3.1"
+
+intents:
+  - saudacao_formal
+  - saudacao_informal
+  - sobre
+  - afirmacao
+  - negacao
+  - agradecimento
+  - email_direcao
+  - contatos
+  - div_pesquisa
+  - coord_ads
+
+responses:
+  utter_saudacao_formal:
+  - text: "Oi, meu nome é Lucas, serei seu assistente. Como posso ajudar?"
+
+  utter_saudacao_informal:
+  - text: "E aí, meu nome é Lucas, no que eu posso te ajudar?"
+
+  utter_sobre:
+  - text: "Me chamo Lucas, sou o assistente virtual do campus. Fui criado por Lucas Lourenço com a orientação do professor Luciano Cabral para ajudar fornecendo informações úteis de forma simples e intuitiva."
+
+  utter_afirmacao:
+  - text: "Ótimo! Até a próxima."
+
+  utter_negacao:
+  - text: "O que você quer saber?"
+
+  utter_agradecimento:
+  - text: "Por nada, é um prazer ajudar!"
+
+  utter_email_direcao:
+  - text: "O email da direção de ensino é: den@jaboatao.ifpe.edu.br, isso te ajudou?"
+
+  utter_contatos:
+  - text: "DIREÇÃO DE ENSINO - den@jaboatao.ifpe.edu.br
+      DIVISÃO DE PESQUISA E EXTENSÃO - dpex@jaboatao.ifpe.edu.br
+      COORDENAÇÃO DO TECNÓLOGO EM ANÁLISE E DESENVOLVIMENTO DE SISTEMAS - coordenacao.ads@jaboatao.ifpe.edu.br
+      COORDENAÇÃO DO TÉCNICO EM INFORMÁTICA PARA INTERNET - cipi@jaboatao.ifpe.edu.br
+      COORDENAÇÃO DO TÉCNICO EM QUALIDADE - cctq@jaboatao.ifpe.edu.br
+      COORDENAÇÃO DO TÉCNICO EM ADMINISTRAÇÃO - 
+      COORDENAÇÃO DO TÉCNICO EM COMÉRCIO - 
+      CRADT (Secretaria) - atendimento.secretaria@jaboatao.ifpe.edu.br
+      BIBLIOTECA  - biblioteca@jaboatao.ifpe.edu.br
+      COORDENADORIA DE RELAÇÕES EMPRESARIAIS, ESTÁGIOS E EGRESSOS - cree@jaboatao.ifpe.edu.br 
+      COORDENADORIA DE MONITORIA - monitoria@jaboatao.ifpe.edu.br 
+      DIVISÃO DE ASSISTÊNCIA AO ENSINO E AO ESTUDANTE - daee@jaboatao.ifpe.edu.br
+      Sobre Carteira Estudantil: carteiraestudante@jaboatao.ifpe.edu.br 
+      COORDENADORIA DE PSICOLOGIA - anamelia.mello@jaboatao.ifpe.edu.br
+      PEDAGOGAS- adriana.assis@jaboatao.ifpe.edu.br  e graciele.gomes@jaboatao.ifpe.edu.br
+      ASSESSORIA DE COMUNICAÇÃO - ascom@jaboatao.ifpe.edu.br
+      Fonte: https://sites.google.com/jaboatao.ifpe.edu.br/ensino/nossos-contatos"
+
+  utter_div_pesquisa:
+  - text: "O e-mail da Divisão de Pesquisa e extensão é: dpex@jaboatao.ifpe.edu.br"
+
+  utter_coord_ads:
+  - text: "O e-mail da coordenação do curso de Tecnologia em Análise e Desenvolvimento de Sistemas é: ads@jaboatao.ifpe.edu.br"
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

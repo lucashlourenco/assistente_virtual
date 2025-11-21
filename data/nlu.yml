@@ -1,0 +1,95 @@
+version: "3.1"
+
+nlu:
+- intent: saudacao_formal
+  examples: |
+    - oi
+    - olá
+    - bom dia
+    - boa tarde
+    - boa noite
+    - oi, tudo bem?
+    - opa, tudo bom?
+    - opa, tudo bem?
+
+
+- intent: saudacao_informal
+  examples: |
+    - e aê
+    - e aí, tudo bem?
+    - e aí, tudo bem?
+    - e aê, tudo bem?
+    - e aê, tudo bom?
+    - e aê, de boa?
+    - e aí, de boa?
+    - salve
+    - dale
+    - opa
+    - e aí
+
+- intent: sobre
+  examples: |
+    - quem é você?
+    - me fale sobre você
+
+- intent: afirmacao
+  examples: |
+    - sim
+    - com certeza
+    - óbvio
+    - sim, obrigado
+    - claro
+
+- intent: negacao
+  examples: |
+    - não
+    - n
+    - negativo
+    - claro que não
+    - óbvio que não
+    - não mesmo
+    - nem
+
+- intent: agradecimento
+  examples: |
+    - obrigado
+    - valeu
+    - vlw
+    - agradecido
+    - grato
+    - tamo junto
+
+- intent: email_direcao
+  examples: |
+    - qual o e-mail da direção?
+    - qual o e-mail da direção de ensino?
+    - o email da direção de ensino
+    - o e-mail da direção de ensino
+    - e-mail da direção
+    - email direção
+    - o e-mail da direção
+    - quero o e-mail da direção
+
+- intent: contatos
+  examples: |
+    - como posso entrar em contato?
+    - quais são os contatos do campus?
+    - quais são os contatos daqui?
+    - quero os contatos
+    - contatos
+
+- intent: div_pesquisa
+  examples: |
+    - qual o email da divisão de pesquisa e extensão?
+    - qual o email de pesquisa e extensão?
+    - qual o e-mail pra falar sobre extensão?
+    - qual o e-mail pra falar sobre pesquisa?
+
+- intent: coord_ads
+  examples: |
+    - qual o email da divisão coordenacao de ads?
+    - qual o email da coordenacao de análise e desenvolvimento de sistemas?
+    - qual o e-mail pra falar sobre o curso de ads?
+    - qual o e-mail pra falar sobre o curso de análise e desenvolvimento de sistemas?
+    - qual o e-mail pra falar sobre pesquisa?
+
