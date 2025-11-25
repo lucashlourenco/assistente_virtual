@@ -1,0 +1,17 @@
+version: "3.1"
+
+stories:
+
+- story: informacao de contatos positiva
+  steps:
+  - intent: saudacao_formal
+  - action: utter_saudacao_formal
+  - intent: afirmacao
+  - action: utter_afirmacao
+
+- story: informacao de contatos negativa
+  steps:
+  - intent: saudacao_formal
+  - action: utter_saudacao_formal
+  - intent: negacao
+  - action: utter_negacao

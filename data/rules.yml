@@ -1,0 +1,53 @@
+version: "3.1"
+
+rules:
+
+- rule: Saudacao formal ao usuario
+  steps:
+  - intent: saudacao_formal
+  - action: utter_saudacao_formal
+
+- rule: Saudacao informal ao usuario
+  steps:
+  - intent: utter_saudacao_formal
+  - action: utter_saudacao_informal
+
+- rule: Sobre o chat
+  steps:
+  - intent: sobre
+  - action: utter_sobre
+
+- rule: Afirmacao do usuario
+  steps:
+  - intent: afirmacao
+  - action: utter_afirmacao
+
+- rule: Negacao do usuario
+  steps:
+  - intent: negacao
+  - action: utter_negacao
+
+- rule: Agradecimento do usuario
+  steps:
+  - intent: agradecimento
+  - action: utter_agradecimento
+
+- rule: E-mail direcao
+  steps:
+  - intent: email_direcao
+  - action: utter_email_direcao
+
+- rule: Mandar contatos
+  steps:
+  - intent: contatos
+  - action: utter_contatos
+
+- rule: E-mail da divisao de pesquisa
+  steps:
+  - intent: div_pesquisa
+  - action: utter_div_pesquisa
+
+- rule: E-mail da coordenacao de ADS
+  steps:
+  - intent: coord_ads
+  - action: utter_coord_ads
